@@ -3,6 +3,8 @@ const aboutuspara = document.getElementById("aboutus_description");
 
 const aboutusimg1 = document.getElementById("aboutus_img1");
 const aboutusimg2 = document.getElementById("aboutus_img2");
+const aboutusimg3 = document.getElementById("aboutus_img3");
+const aboutusimg4 = document.getElementById("aboutus_img4");
 
 aboutusbtn.addEventListener('click',() =>{
     aboutuspara.classList.remove('inactive');
@@ -11,6 +13,10 @@ aboutusbtn.addEventListener('click',() =>{
     aboutusimg1.classList.remove('inactive');
     // aboutusimg1.classList.add('aboutus_imgonclick1');
     aboutusimg2.classList.remove('inactive');
+    // aboutusimg2.classList.add('aboutus_imgonclick2');
+    aboutusimg3.classList.remove('inactive');
+    // aboutusimg1.classList.add('aboutus_imgonclick1');
+    aboutusimg4.classList.remove('inactive');
     // aboutusimg2.classList.add('aboutus_imgonclick2');
 } )
 
