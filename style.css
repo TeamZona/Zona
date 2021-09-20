@@ -1,4 +1,4 @@
-*{
+* {
   scroll-behavior: smooth;
 }
 body {
@@ -39,8 +39,8 @@ nav ul li a {
   transition: all smooth;
 }
 
-nav ul li a:hover{
-  color:#d0d0d0;
+nav ul li a:hover {
+  color: #d0d0d0;
 }
 
 nav button {
@@ -57,7 +57,7 @@ nav button:active {
   border-radius: 19px;
 }
 
-.btn a{
+.btn a {
   text-decoration: none;
   color: white;
 }
@@ -72,7 +72,7 @@ nav button:nth-child(2) {
   font-size: 4vw;
   color: #fff;
   position: relative;
-  line-height: 1.5  em;
+  line-height: 1.5 em;
   top: 2em;
   margin-left: 1.2em;
 }
@@ -105,27 +105,27 @@ svg {
   display: flex;
   justify-content: flex-end;
 }
-.aboutimg_con{
+.aboutimg_con {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.img_folder1{
+.img_folder1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: flex-end;
   width: 100%;
   height: 50%;
-  
 }
-.img_folder2{
+.img_folder2 {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: flex-start;
   justify-content: space-around;
   width: 100%;
   height: 50%;
-
 }
 .overlay_aboutus {
   position: absolute;
@@ -148,21 +148,33 @@ svg {
   line-height: 1.4em;
   transition: all 0.6s ease-in-out;
 }
+
+.overlay_aboutus p a {
+  text-decoration: none;
+  color: white;
+}
+
+.overlay_aboutus p a:hover {
+  color: #6831ea;
+}
+
 .aboutus_imgonclick1 {
   /* position: absolute; */
-  height: 15vh;
-  width: 100%;
+  padding-bottom: 20px;
+  height: 150px;
+  width: 150px;
   /* right: 26vw;
   top: 20vh; */
   transition: all 0.6s ease-in-out;
 }
 .aboutus_imgonclick2 {
-    /* position: absolute; */
-    height: 15vh;
-    width: 100%;
-    /* right: 26vw;
+  /* position: absolute; */
+  padding-top: 20px;
+  height: 150px;
+  width: 150px;
+  /* right: 26vw;
     bottom: 20vh; */
-    transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .aboutus_btn {
@@ -336,7 +348,7 @@ svg {
   cursor: pointer;
   outline: inherit;
   text-decoration: none;
-  color:rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
 }
 
 .slide-description {
@@ -358,7 +370,6 @@ svg {
 .swiper-portfolio-icon {
   font-size: 5vw;
   color: #ffffff;
-  
 }
 
 .swiper-pagination-bullet-active {
@@ -476,7 +487,7 @@ svg {
   padding-left: 1rem;
 }
 
-.footer_link:hover{
+.footer_link:hover {
   color: #d0d0d0;
 }
 
